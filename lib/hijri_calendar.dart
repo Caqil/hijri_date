@@ -5,7 +5,7 @@ import 'package:hijri/digits_converter.dart';
 import 'hijri_array.dart';
 
 class HijriCalendar {
-  static String language = 'en';
+  static String language = 'id';
   late int lengthOfMonth;
   int hDay = 1;
   late int hMonth;
@@ -17,7 +17,7 @@ class HijriCalendar {
   Map<int, int>? adjustments;
 
   static Map<String, Map<String, Map<int, String>>> _local = {
-    'en': {
+    'id': {
       'long': monthNames,
       'short': monthShortNames,
       'days': wdNames,
